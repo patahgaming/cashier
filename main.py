@@ -45,7 +45,8 @@ while 1:
             barangs.append(barang)
             print(barangs)
             print(hargas)
-
+        elif barang.lower() =="tambah":
+            tulis()
         else:
             print("barang salah")
 for harga in hargas:
